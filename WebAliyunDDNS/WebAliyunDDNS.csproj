@@ -71,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API.cs" />
+    <Compile Include="getAll.ashx.cs">
+      <DependentUpon>getAll.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Handler1.ashx.cs">
       <DependentUpon>Handler1.ashx</DependentUpon>
     </Compile>
@@ -79,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Handler1.ashx" />
+    <Content Include="getAll.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
